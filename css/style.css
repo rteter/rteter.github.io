@@ -1,0 +1,70 @@
+
+
+  body {
+        background-image:url(../assets/MountainsBackground.jpg);    
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+    }  
+
+#Home {padding-top:70px;}
+#Maps {padding-top:70px;}
+#About {padding-top:70px; padding-bottom:70px;}
+#Connect {padding-bottom: 50px}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.center{
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 90%;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+h1{
+	font-family: "Chivo";
+	color: green;
+	font-size: 30px;
+
+}
+
+h2{
+	font-family: "Courier New Bold", serif;
+	color: #8b0000;
+	font-size: 24px;
+}
+
+h3{
+	font-family: "Courier New Bold", serif;
+	color: black;
+	front-size: 12px;
+
+p1{
+	font-family: "Courier New Bold", serif;
+	color: black;
+	front-size: 12px;
+}
+
+
